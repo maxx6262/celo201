@@ -33,7 +33,13 @@
         <scripts>
           <script value="deploy" />
         </scripts>
-        <arguments value="./scripts/deploy.js" />
+        <node-interpreter value="project" />
+        <envs />
+      </option>
+      <option name="NpmBeforeRunTask" enabled="true">
+        <package-json value="$PROJECT_DIR$/package.json" />
+        <command value="test" />
+        <arguments value="test/nft-test.js" />
         <node-interpreter value="project" />
         <envs />
       </option>
