@@ -7,7 +7,7 @@ async function main() {
 
   await myNFT.deployed();
 
-  console.log("MyNFT deployed to:", deployed.address);
+  console.log("MyNFT deployed to:", myNFT.address);
   storeContractData(myNFT)
 }
 
